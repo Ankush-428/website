@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ankush Garg &amp; Pulkit Garg — Cross-Domain Analysis</title>
+<meta name="description" content="Quantitative analysis and strategy across finance, economics, marketing, and energy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="site-nav" id="siteNav">
+  <a href="#top" class="wordmark">AG <span class="dot">·</span> PG</a>
+  <nav class="nav-links">
+    <a href="#services">Services</a>
+    <a href="#work">Work</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <p class="eyebrow">Two analysts &middot; four domains &middot; one read of the numbers</p>
+    <h1>Two lenses.<br>One analysis.</h1>
+    <p class="hero-sub">
+      We study markets, economies, campaigns, and grids — and hand back the read
+      that's actually decision-useful. Quantitative strategy and modelling across
+      <strong>finance</strong>, <strong>economics</strong>, <strong>marketing</strong>, and <strong>energy</strong>.
+    </p>
+    <div class="hero-cta">
+      <a href="#contact" class="btn btn-primary">Tell us what you need</a>
+      <a href="#services" class="btn btn-ghost">See what we provide</a>
+    </div>
+  </div>
+
+  <!-- Signature element: two diverging/converging data lines representing the two analysts,
+       meeting at the point where their domains overlap. -->
+  <div class="hero-chart" aria-hidden="true">
+    <svg viewBox="0 0 1000 260" preserveAspectRatio="none">
+      <line x1="0" y1="130" x2="1000" y2="130" class="chart-baseline" />
+      <path class="chart-line chart-line--ag"
+            d="M0,60 C150,40 250,150 400,110 C550,70 620,160 760,130 C860,110 930,130 1000,128" />
+      <path class="chart-line chart-line--pg"
+            d="M0,200 C150,220 250,90 400,150 C550,190 620,110 760,132 C860,150 930,128 1000,128" />
+      <circle cx="760" cy="131" r="6" class="chart-node" />
+    </svg>
+    <span class="chart-label chart-label--ag">AG — finance &amp; valuation</span>
+    <span class="chart-label chart-label--pg">PG — economics &amp; energy</span>
+    <span class="chart-label chart-label--meet">where the read agrees</span>
+  </div>
+</section>
+
+<!-- ============ CAPABILITIES ============ -->
+<section class="capabilities" id="capabilities">
+  <p class="section-kicker">What we cover</p>
+  <div class="cap-grid">
+    <article class="cap-card cap-card--fin">
+      <span class="cap-tag">FIN</span>
+      <h3>Trading Strategy &amp; Valuation</h3>
+      <p>Systematic strategy research, backtesting, portfolio construction, and
+        financial valuation modelling for equity compensation and structured
+        instruments.</p>
+    </article>
+    <article class="cap-card cap-card--econ">
+      <span class="cap-tag">ECON</span>
+      <h3>Economic &amp; Policy Modelling</h3>
+      <p>Econometric and panel-data analysis, CGE and input-output modelling,
+        scenario and pathway analysis for policy and industry decisions.</p>
+    </article>
+    <article class="cap-card cap-card--mkt">
+      <span class="cap-tag">MKT</span>
+      <h3>Marketing &amp; Growth Analytics</h3>
+      <p>Campaign and channel analysis, A/B and causal impact testing, demand
+        forecasting, and dashboarding that ties spend to outcomes.</p>
+    </article>
+    <article class="cap-card cap-card--engy">
+      <span class="cap-tag">ENGY</span>
+      <h3>Energy &amp; Transition Analysis</h3>
+      <p>Power market modelling, curtailment and grid analysis, decarbonisation
+        pathways, and energy-transition economics.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="services" id="services">
+  <p class="section-kicker">What we provide</p>
+  <p class="services-intro">Four ways to bring us in. Tell us which one fits and we'll scope the rest.</p>
+
+  <div class="service-list">
+    <article class="service-card service-card--fin">
+      <span class="cap-tag">FIN</span>
+      <h3>Trading Strategy Research &amp; Backtesting</h3>
+      <p>We design, code, and stress-test systematic trading strategies — signal
+        to walk-forward backtest — and hand over a documented, reproducible
+        research package.</p>
+      <ul class="service-includes">
+        <li>Strategy logic &amp; signal design</li>
+        <li>Walk-forward backtest with realistic costs</li>
+        <li>Performance report — Sharpe, drawdown, exposure</li>
+      </ul>
+      <a href="#contact" class="btn btn-primary btn-small">Contact us about this</a>
+    </article>
+
+    <article class="service-card service-card--fin">
+      <span class="cap-tag">FIN</span>
+      <h3>ESOP &amp; Equity Valuation Modelling</h3>
+      <p>Audit-ready valuation models for equity compensation and structured
+        instruments, built to Ind AS 102 / 115 standards.</p>
+      <ul class="service-includes">
+        <li>Monte Carlo / vesting models</li>
+        <li>Model audits &amp; error correction</li>
+        <li>Auditor-ready documentation</li>
+      </ul>
+      <a href="#contact" class="btn btn-primary btn-small">Contact us about this</a>
+    </article>
+
+    <article class="service-card service-card--econ">
+      <span class="cap-tag">ECON / ENGY</span>
+      <h3>Economic &amp; Energy Modelling</h3>
+      <p>Econometric and CGE / input-output analysis for policy, power-market,
+        and energy-transition questions.</p>
+      <ul class="service-includes">
+        <li>Panel econometrics &amp; causal analysis</li>
+        <li>Power market &amp; curtailment analysis</li>
+        <li>Scenario &amp; pathway modelling</li>
+      </ul>
+      <a href="#contact" class="btn btn-primary btn-small">Contact us about this</a>
+    </article>
+
+    <article class="service-card service-card--mkt">
+      <span class="cap-tag">MKT</span>
+      <h3>Marketing &amp; Growth Analytics</h3>
+      <p>Turning campaign and channel data into a clear read on what's working,
+        with rigorous testing instead of guesswork.</p>
+      <ul class="service-includes">
+        <li>A/B &amp; causal impact testing</li>
+        <li>Demand &amp; spend forecasting</li>
+        <li>Dashboards tied to outcomes</li>
+      </ul>
+      <a href="#contact" class="btn btn-primary btn-small">Contact us about this</a>
+    </article>
+  </div>
+</section>
+
+<!-- ============ TEAM ============ -->
+<section class="team" id="team">
+  <p class="section-kicker">Who's behind it</p>
+  <div class="team-grid">
+
+    <article class="team-card">
+      <div class="team-photo">
+        <!-- TODO: replace with your headshot -->
+        <img src="assets/images/ankush.jpg" alt="Ankush Garg" onerror="this.parentElement.classList.add('no-photo')">
+        <span class="photo-fallback">AG</span>
+      </div>
+      <h3>Ankush Garg</h3>
+      <p class="team-role">Quantitative Researcher &amp; Data Scientist</p>
+      <p class="team-bio">
+        Works across systematic algorithmic trading research and audit-ready
+        financial valuation modelling under Ind AS 102 and 115. Currently a
+        Quantitative Researcher on contract with Fractal AI, and a Top Rated
+        Plus freelancer on Upwork.
+      </p>
+      <ul class="team-tools">
+        <li>Python</li><li>vectorbtpro</li><li>Black-Litterman</li>
+        <li>Walk-forward backtesting</li><li>Monte Carlo modelling</li>
+      </ul>
+      <div class="team-links">
+        <!-- TODO: confirm/replace links -->
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Resume</a>
+      </div>
+    </article>
+
+    <article class="team-card">
+      <div class="team-photo">
+        <img src="assets/images/pulkit.jpg" alt="Pulkit Garg" onerror="this.parentElement.classList.add('no-photo')">
+        <span class="photo-fallback">PG</span>
+      </div>
+      <h3>Pulkit Garg</h3>
+      <p class="team-role">Energy Economics &amp; Modelling</p>
+      <p class="team-bio">
+        Research professional at the intersection of energy economics,
+        quantitative modelling, and the energy transition. Currently with
+        TERI's Energy Assessment &amp; Modelling team, working on the Carbon
+        Credit Trading Scheme and CGE-based decarbonisation research;
+        previously with CEEW's power markets team.
+      </p>
+      <ul class="team-tools">
+        <li>Stata</li><li>Econometrics</li><li>CGE / Input-Output</li>
+        <li>Power BI</li><li>GAMS</li>
+      </ul>
+      <div class="team-links">
+        <a href="https://www.linkedin.com/in/pulkitgarg03/">LinkedIn</a>
+        <a href="https://github.com/pulkitgarg3">GitHub</a>
+        <a href="https://pulkitgarg3.github.io/Pulkit-Portfolio/assets/Pulkit_Garg_CV.pdf">Resume</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ SELECTED WORK ============ -->
+<section class="work" id="work">
+  <p class="section-kicker">Selected work</p>
+
+  <div class="work-list">
+
+    <!-- TODO: fill in your Momentum strategy project -->
+    <article class="work-card work-card--fin">
+      <span class="cap-tag">FIN</span>
+      <h3>Momentum Strategy <em>— name it</em></h3>
+      <p class="work-role">Ankush Garg</p>
+      <p class="work-desc">
+        <em>[Add: what the momentum strategy trades, the signal logic, and the
+        universe/timeframe it runs on.]</em>
+      </p>
+      <p class="work-result">
+        <strong>Result:</strong> <em>[Add: backtested Sharpe, CAGR, drawdown, or
+        other outcome you're comfortable sharing publicly.]</em>
+      </p>
+      <ul class="work-stack"><li>Python</li><li>vectorbtpro</li><li><em>+ add tools</em></li></ul>
+    </article>
+
+    <!-- TODO: fill in your MBS project -->
+    <article class="work-card work-card--fin">
+      <span class="cap-tag">FIN</span>
+      <h3>MBS <em>— name it</em></h3>
+      <p class="work-role">Ankush Garg</p>
+      <p class="work-desc">
+        <em>[Add: what the MBS project analysed or modelled — pricing, prepayment
+        risk, valuation, a specific deal structure, etc.]</em>
+      </p>
+      <p class="work-result">
+        <strong>Result:</strong> <em>[Add: the concrete outcome or deliverable.]</em>
+      </p>
+      <ul class="work-stack"><li><em>+ add tools</em></li></ul>
+    </article>
+
+    <article class="work-card work-card--fin">
+      <span class="cap-tag">FIN</span>
+      <h3>ESOP Valuation Audit &amp; Correction</h3>
+      <p class="work-role">Ankush Garg</p>
+      <p class="work-desc">
+        Audited an ESOP vesting Monte Carlo model and found a row-reference bug
+        silently zeroing the drift term in the simulation.
+      </p>
+      <p class="work-result">
+        <strong>Result:</strong> Corrected expected vesting percentage from
+        roughly 2.7% to 72.6%; delivered a fixed workbook and a written audit
+        report to the client.
+      </p>
+      <ul class="work-stack"><li>Monte Carlo</li><li>Ind AS 102</li><li>Excel</li></ul>
+    </article>
+
+    <article class="work-card work-card--engy">
+      <span class="cap-tag">ENGY</span>
+      <h3>RE Integration, Curtailment &amp; Ancillary Services</h3>
+      <p class="work-role">Pulkit Garg</p>
+      <p class="work-desc">
+        Assessed solar and wind curtailment across Indian states using
+        plant-level generation data; evaluated TRAS Down ancillary services and
+        re-backdown compensation mechanisms.
+      </p>
+      <p class="work-result">
+        <strong>Result:</strong> Analysis informing renewable-integration and
+        power market design questions, produced during a CEEW research
+        engagement.
+      </p>
+      <ul class="work-stack"><li>Power Markets</li><li>Data Analysis</li><li>TRAS</li></ul>
+    </article>
+
+    <article class="work-card work-card--econ">
+      <span class="cap-tag">ECON</span>
+      <h3>Climate Risk &amp; Industrial Productivity</h3>
+      <p class="work-role">Pulkit Garg</p>
+      <p class="work-desc">
+        Panel econometric analysis of climate-induced heat exposure on
+        industrial output and labour productivity, using plant-level ASI data
+        integrated with district temperature indicators.
+      </p>
+      <p class="work-result">
+        <strong>Result:</strong> A harmonised unbalanced factory-year panel and
+        credible exposure estimates, produced during a CEEW research
+        engagement.
+      </p>
+      <ul class="work-stack"><li>Stata</li><li>Panel Data</li><li>Climate Risk</li></ul>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ WHY TOGETHER ============ -->
+<section class="together">
+  <div class="together-inner">
+    <p class="section-kicker">Why together</p>
+    <p class="together-copy">
+      <!-- TODO: replace with your own framing once you're happy with the pitch -->
+      One of us reads markets and balance sheets; the other reads economies and
+      grids. On a joint engagement, that means a question gets checked from two
+      directions before it becomes an answer — the trading or valuation read,
+      and the economic or policy read — instead of just one.
+    </p>
+  </div>
+</section>
+
+<!-- ============ CONTACT / FOOTER ============ -->
+<footer class="contact" id="contact">
+  <div class="contact-inner">
+    <h2>Tell us what you need</h2>
+    <p class="contact-sub">Fill this in and it'll open your email client with everything
+      pre-filled, sent straight to both of us. Or reach us directly below.</p>
+
+    <!-- Client-side only: builds a mailto: link on submit. To collect
+         inquiries in an inbox without relying on the visitor's mail client,
+         swap this for a form backend like Formspree or Getform — point the
+         <form> action at their endpoint and remove the JS in script.js. -->
+    <form id="inquiryForm" class="inquiry-form">
+      <div class="form-row">
+        <label>Name
+          <input type="text" name="name" required>
+        </label>
+        <label>Email
+          <input type="email" name="email" required>
+        </label>
+      </div>
+      <label>What do you need help with?
+        <select name="service">
+          <option>Trading strategy research &amp; backtesting</option>
+          <option>ESOP / equity valuation modelling</option>
+          <option>Economic &amp; energy modelling</option>
+          <option>Marketing &amp; growth analytics</option>
+          <option>Something else</option>
+        </select>
+      </label>
+      <label>Message
+        <textarea name="message" rows="4" required placeholder="What are you working on, and what would be useful to have from us?"></textarea>
+      </label>
+      <button type="submit" class="btn btn-primary">Send inquiry</button>
+    </form>
+
+    <div class="contact-cols">
+      <div class="contact-col">
+        <h4>Ankush Garg</h4>
+        <!-- TODO: add your email -->
+        <p><a href="mailto:you@example.com">you@example.com</a></p>
+        <p><a href="#">LinkedIn</a> &middot; <a href="#">GitHub</a></p>
+      </div>
+      <div class="contact-col">
+        <h4>Pulkit Garg</h4>
+        <p><a href="mailto:pulkitgarg560@gmail.com">pulkitgarg560@gmail.com</a></p>
+        <p><a href="https://www.linkedin.com/in/pulkitgarg03/">LinkedIn</a> &middot;
+           <a href="https://github.com/pulkitgarg3">GitHub</a></p>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Ankush Garg &amp; Pulkit Garg</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
